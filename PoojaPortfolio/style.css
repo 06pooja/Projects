@@ -69,6 +69,7 @@ h5{
     overflow-y: scroll;
     margin: 50px 20px 0px 20px;
     padding: 0px 10px 10px 10px;
+    border-radius: 20px;
 }
 .close{
     width: 20px;
@@ -99,6 +100,7 @@ h5{
     overflow-y: scroll;
     margin: 50px 20px 0px 20px;
     padding: 10px 10px 10px 10px;
+    border-radius: 20px;
 }
 .closeEducation{
     width: 20px;
@@ -129,6 +131,7 @@ h5{
     overflow-y: scroll;
     margin: 50px 20px 0px 20px;
     padding: 10px 10px 10px 10px;
+    border-radius: 20px;
 }
 .closeExperience{
     width: 20px;
@@ -159,6 +162,7 @@ h5{
     overflow-y: scroll;
     margin: 50px 20px 0px 20px;
     padding: 10px 10px 10px 10px;
+    border-radius: 20px;
 }
 .closeProjects{
     width: 20px;
@@ -189,6 +193,7 @@ h5{
     overflow-y: scroll;
     margin: 50px 20px 0px 20px;
     padding: 10px 10px 10px 10px;
+    border-radius: 20px;
 }
 .closeSkills{
     width: 20px;
@@ -218,6 +223,7 @@ h5{
     height: 300px;
     margin: 50px 20px 0px 20px;
     padding: 10px 10px 10px 10px;
+    border-radius: 20px;
 }
 .closeContactDetails{
     width: 20px;
@@ -242,6 +248,7 @@ h5{
     position: absolute;
     margin-top: 130px;
     margin-left: 200px;
+    
 }
 .emailLogo{
     width: 50px;
@@ -259,6 +266,11 @@ h5{
     margin-top: 130px;
     margin-left: 280px;
 }
-
-
-
+#phone{
+    border-color:rgb(66, 167, 167);
+    display: none;
+}
+#email{
+    border-color:rgb(66, 167, 167);
+    display: none;
+}
