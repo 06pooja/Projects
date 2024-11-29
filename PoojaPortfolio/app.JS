@@ -113,7 +113,30 @@ closeContactDetails.addEventListener("click",()=>
     contactDetailsModelBox.style.display ="none";
 })
 
-  
+//--------------------call-------------------------//
+let callLogo = document.querySelector(".callLogo");
 
+callLogo.addEventListener("click", ()=>{
+    let email = document.querySelector("#email");
+    email.style.display ="none";
 
+    let phone = document.querySelector("#phone");
+    phone.style.display ="block";
+})
+let phone = document.querySelector("#phone");
+phone.addEventListener("mouseout",()=>{
+    let phone = document.querySelector("#phone");
+    phone.style.display ="none";
+})
+//--------------------email-------------------------//
+let emailLogo = document.querySelector(".emailLogo");
 
+emailLogo.addEventListener("click",()=>{
+    let email = document.querySelector("#email");
+    email.style.display ="block";
+})
+let email = document.querySelector("#email");
+email.addEventListener("mouseout",()=>{
+    let email = document.querySelector("#email");
+    email.style.display ="none";
+})
