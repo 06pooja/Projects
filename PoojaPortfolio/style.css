@@ -1,0 +1,264 @@
+
+body{
+    background-image: url(assets/bgimage.jpg);
+    background-size: 80%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#pic:hover{
+    box-shadow: 10px 10px 10px rgb(180, 174, 174,0.7)
+}
+#Other_details{
+    margin-top: 20px;
+    height: 200px;
+    width: 900px; 
+    background-color: none;
+    display: flex; 
+justify-content: space-around;
+}
+.details{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(180, 174, 174);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 10px black
+}
+.details:hover{
+    box-shadow: 10px 10px 10px rgb(180, 174, 174, 0.7)
+}
+#name{
+    color: white;
+    margin: 10px 340px 0 360px;
+}
+h5{
+    color: white;
+    margin: 0 340px 0 360px;
+}
+#first{
+    align-items: center;
+    height: 600px;
+    width: 900px;
+    margin: 100px;
+    background-color: none;
+}
+#pic{
+    height: 200px;
+    width: 200px;
+    /* background-color: black; */
+    background-image: url(assets/photo.jpg);
+    background-size: cover;
+    margin: 10px 350px 0 350px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 10px black
+}
+#PicModelBox{
+    background-color:#e3f6f5;
+    opacity: 0.9;
+    position: fixed;
+    margin: 200px 200px 200px 200px;
+   width: 600px;
+   height: 400px;
+   overflow: hidden;
+   display:none;
+   border-radius: 30px;
+}
+#picDetails{
+    background-color: #bae8e8;
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 50px 20px 0px 20px;
+    padding: 0px 10px 10px 10px;
+}
+.close{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#education{
+    background-image: url(assets/education.jpg);
+    background-size: cover;
+}
+#educationModelBox{
+    background-color:#e3f6f5;
+    opacity: 0.9;
+    position: fixed;
+    margin: 200px 200px 200px 200px;
+   width: 600px;
+   height: 400px;
+   overflow: hidden;
+   display:none;
+   border-radius: 30px;
+}
+#educationDetails{
+    background-color: #bae8e8;
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 50px 20px 0px 20px;
+    padding: 10px 10px 10px 10px;
+}
+.closeEducation{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#experience{
+    background-image: url(assets/Experience.png);
+    background-size: cover;
+}
+#experienceModelBox{
+    background-color:#e3f6f5;
+    opacity: 0.9;
+    position: fixed;
+    margin: 200px 200px 200px 200px;
+   width: 600px;
+   height: 400px;
+   overflow: hidden;
+   display:none;
+   border-radius: 30px;
+}
+#experienceDetails{
+    background-color: #bae8e8;
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 50px 20px 0px 20px;
+    padding: 10px 10px 10px 10px;
+}
+.closeExperience{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#projects{
+    background-image: url(assets/projects.png);
+    background-size: cover;
+}
+#projectsModelBox{
+    background-color:#e3f6f5;
+    opacity: 0.9;
+    position: fixed;
+    margin: 200px 200px 200px 200px;
+   width: 600px;
+   height: 400px;
+   overflow: hidden;
+   display:none;
+   border-radius: 30px;
+}
+#projectsDetails{
+    background-color: #bae8e8;
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 50px 20px 0px 20px;
+    padding: 10px 10px 10px 10px;
+}
+.closeProjects{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#skills{
+    background-image: url(assets/skills.png);
+    background-size: cover;
+}
+#skillsModelBox{
+    background-color:#e3f6f5;
+    opacity: 0.9;
+    position: fixed;
+    margin: 200px 200px 200px 200px;
+   width: 600px;
+   height: 400px;
+   overflow: hidden;
+   display:none;
+   border-radius: 30px;
+}
+#skillsDetails{
+    background-color: #bae8e8;
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 50px 20px 0px 20px;
+    padding: 10px 10px 10px 10px;
+}
+.closeSkills{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#contact_details{
+    background-image: url(assets/contact.png);
+    background-size: cover;
+}
+#contactDetailsModelBox{
+    background-color:#e3f6f5;
+    opacity: 0.9;
+    position: fixed;
+    margin: 200px 200px 200px 200px;
+   width: 600px;
+   height: 400px;
+   overflow: hidden;
+   display:none;
+   border-radius: 30px;
+}
+#contactDetails{
+    background-color: #bae8e8;
+    height: 300px;
+    margin: 50px 20px 0px 20px;
+    padding: 10px 10px 10px 10px;
+}
+.closeContactDetails{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#footer{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.INlogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 200px;
+}
+.emailLogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 240px;
+}
+.callLogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 280px;
+}
+
+
+
